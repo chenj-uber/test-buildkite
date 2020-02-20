@@ -2,8 +2,5 @@ steps:
   - label: "Example Test"
     command: echo "Hello!"
 
-  - label: "Go build"
-    command: go build
-
-  - label: "Go run"
-    command: go run
+  - label: "Golang build"
+    command: "./test.sh"
