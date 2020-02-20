@@ -5,5 +5,5 @@ steps:
   - label: "Golang build"
     command: "./test.sh"
     env:
-	BUILDKITE_GOLANG_IMPORT_PATH: "github.com/buildkite/golang-example"
+      BUILDKITE_GOLANG_IMPORT_PATH: "github.com/buildkite/golang-example"
 
